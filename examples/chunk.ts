@@ -8,20 +8,20 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-// const chunk = (arr: any[], size: number): any[] => {
-//   let chunked = [];
-//   for (let val of arr) {
-//     const lastElem = chunked[chunked.length - 1];
-//     if (!lastElem || lastElem.length === size) {
-//       chunked.push([val]);
-//     } else {
-//       lastElem.push(val);
-//     }
-//   }
-//   return chunked;
-// };
-
 const chunk = (arr: any[], size: number): any[] => {
+  let chunked = [];
+  for (let val of arr) {
+    const lastElem = chunked[chunked.length - 1];
+    if (!lastElem || lastElem.length === size) {
+      chunked.push([val]);
+    } else {
+      lastElem.push(val);
+    }
+  }
+  return chunked;
+};
+
+const chunk2 = (arr: any[], size: number): any[] => {
   const chunked = [];
   let index = 0;
 
@@ -32,4 +32,4 @@ const chunk = (arr: any[], size: number): any[] => {
   return chunked;
 };
 
-console.log(chunk([1, 2, 3, 4, 5], 4));
+console.log(chunk2([1, 2, 3, 4, 5], 4));
