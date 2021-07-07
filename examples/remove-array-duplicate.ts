@@ -18,14 +18,10 @@
  */
 const removeDuplicates = (nums: number[]): number => {
     for (let i = 0; i < nums.length; i++) {
-        console.log('num-1', nums[i]);
-        console.log('num-2', nums[i + 1]);
-        console.log('---------------------');
         if (nums[i] === nums[i + 1]) {
             nums.splice(i, 1);
         }
-    }
-    console.log('nums:', nums);
+    } 
     return nums.length;
 };
 

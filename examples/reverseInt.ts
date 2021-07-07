@@ -17,4 +17,4 @@ const reverseInt = (num: number) => {
   return parseInt(reversed) * Math.sign(num);
 };
 
-export default reverseInt;
+console.log(reverseInt(500));

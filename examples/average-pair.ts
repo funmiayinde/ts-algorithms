@@ -28,10 +28,11 @@ const averagePair = (arr: number[], target: number) => {
             return true;
         } else if (cal < target) {
             left++;
+        } else {
+            right--;
         }
-        right--;
     }
     return false;
 };
 
-console.log(averagePair([1,2,3], 2.5) );
+console.log(averagePair([1, 2, 3], 2.5));
