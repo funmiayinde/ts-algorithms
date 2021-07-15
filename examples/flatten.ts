@@ -22,7 +22,6 @@ const flatten = (arr: any[]): any[] => {
             newArr.push(arr[i]);
         }
     }
-    console.log('newArr:', newArr);
     return newArr;
 }
 console.log(flatten([1, 2, 3, [4, 5] ]));

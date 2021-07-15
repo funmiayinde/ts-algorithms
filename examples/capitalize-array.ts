@@ -21,7 +21,4 @@ const capitalizeFirstWord = (arr: string[]): string[] => {
     res.push(arr.slice(arr.length - 1)[0].toUpperCase());
     return res;
 };
-
-
 console.log(capitalizeFirstWord(['car', 'taco', 'banana']));
-// ['Car','Taco','Banana'])
