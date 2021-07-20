@@ -20,7 +20,6 @@
  * Input: haystack = "", needle = ""
  * Output: 0
  */
-
 /**
  * @param {string} haystack
  * @param {string} needle
