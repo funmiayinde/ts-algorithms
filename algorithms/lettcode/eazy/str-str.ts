@@ -32,5 +32,4 @@ const strStr = (haystack: string, needle: string): number => {
     return -1;
 }
 
-
-console.log(strStr('aaaaa', 'bba'));
+console.log(strStr('hello', 'll'));
