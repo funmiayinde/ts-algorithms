@@ -1,7 +1,5 @@
-# WEB SERVICE
-
 ## Description
-Api web service written in Node, Mongo and Typescript
+Algorithms and Data Structure written in Typescript
 
 ## Local Setup
 
