@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d3f460-a7bb-476c-a0aa-9ef0fe0a5d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/collect-odd-values.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/fib.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/is-palindrome.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/is-subsequence.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/pow.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/recursion/stringify-numbers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/searching/find-rotations-circularly-sorted-arr.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/searching/search-insert-position.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/capitalize-array.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/capitalize-array.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/capitiaze-words.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/capitalize-words.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/flatten.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/flatten.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/nested-even-sum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/nested-even-sum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/recursive-reverse-str.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/recursive-reverse-str.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/recursion/is-subsequence.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/recursion/is-subsequence.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sorting/selection-sort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sorting/selection-sort.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/count-unique-values.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/count-unique-values.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/longest-substr-without-repeat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/longest-substr-without-repeat.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/longest-substring.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/longest-substring.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/unique-in-order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/unique-in-order.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +27,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="25" />
-    <option name="width" value="1280" />
-    <option name="height" value="775" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1wxzv7iwC81A2pHUcJJnwjaubxy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,11 +72,26 @@
       <workItem from="1624608536766" duration="1997000" />
       <workItem from="1624775277209" duration="80000" />
       <workItem from="1625014290335" duration="940000" />
-      <workItem from="1629415258010" duration="13669000" />
+      <workItem from="1629415258010" duration="25038000" />
+      <workItem from="1629592122743" duration="3202000" />
+      <workItem from="1629669863685" duration="570000" />
+      <workItem from="1629672492226" duration="309000" />
+      <workItem from="1629673159869" duration="142000" />
+      <workItem from="1629674421689" duration="3831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="201" width="595" height="522" key="find.popup" timestamp="1629507570284">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="422" y="201" width="595" height="522" key="find.popup/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1629507570284" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1629502858527">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1629502858527" />
   </component>
 </project>

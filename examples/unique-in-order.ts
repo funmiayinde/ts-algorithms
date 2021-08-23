@@ -11,7 +11,6 @@
  * @param {String | Array} arr The value iteration will be done
  */
 const uniqueInOrder = (arr: any[] | string) => {
-    //your code here - remember iterable can be a string or an array
     const result: any[] = [];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] !== arr[i + 1]) {
@@ -23,4 +22,4 @@ const uniqueInOrder = (arr: any[] | string) => {
 
 export default uniqueInOrder;
 
-console.log(uniqueInOrder('AAAABBBCCDAABBB'));
+console.log(uniqueInOrder([]));

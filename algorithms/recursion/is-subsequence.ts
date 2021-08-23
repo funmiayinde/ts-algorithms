@@ -18,7 +18,6 @@ const isSubsequence = (str1: string, str2: string, m: number, n: number): boolea
         return false;
 
     // if last char of two strings are matching
-    console.log('---------------------');
     if (str1[m - 1] === str2[n - 1]) {
         return isSubsequence(str1, str2, m - 1, n - 1);
     }
