@@ -26,8 +26,6 @@ const longestSubStringWithoutRepeat = (str: string): number => {
     let visitedChar = {};
     for (let j = 0; j < str.length; j++) {
         let nextChar = str[j];
-        console.log('visitedChar:', visitedChar);
-        console.log('i:', i);
         if (nextChar in visitedChar && visitedChar[nextChar] >= i) {
             i = visitedChar[nextChar] + 1;
             visitedChar[nextChar] = j;
@@ -41,4 +39,4 @@ const longestSubStringWithoutRepeat = (str: string): number => {
 
 
 
-console.log(longestSubStringWithoutRepeat('pwwkew'));
+console.log(longestSubStringWithoutRepeat('bbbb'));
